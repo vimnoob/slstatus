@@ -68,4 +68,5 @@ static const struct arg args[] = {
 	{ datetime, "%s",           "%F %T" },
         { battery_perc, " %s%%",       "BAT0" },
         { battery_remaining, " %s",      "BAT0" },
+        { cat, " %s", "/etc/hostname" },
 };      
